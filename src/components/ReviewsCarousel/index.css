@@ -1,0 +1,115 @@
+.mainCon {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vw;
+}
+.mainH {
+  color: #ffffff;
+  font-size: 4vw;
+}
+.imgCon {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.arrow {
+  width: 2vw;
+}
+.profileCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5vw;
+  padding-bottom: 1vw;
+}
+.profilePic {
+  width: 10vw;
+}
+.name {
+  font-size: 2vw;
+  color: #ffffff;
+  font-weight: 520;
+}
+.firm {
+  font-size: 2vw;
+  color: #171f46;
+}
+.mainP {
+  width: 60vw;
+  font-size: 2vw;
+  color: #171f46;
+  margin-top: 0;
+  text-align: center;
+}
+.ArrowBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .mainCon {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+  }
+  .mainH {
+    color: #ffffff;
+    font-size: 5vh;
+  }
+  .imgCon {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .arrow {
+    width: 4vh;
+  }
+  .profileCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .profilePic {
+    width: 25vh;
+  }
+  .name {
+    font-size: 3vh;
+    color: #ffffff;
+    font-weight: 520;
+  }
+  .firm {
+    font-size: 3vh;
+    color: #171f46;
+  }
+  .mainP {
+    width: 70vw;
+    font-size: 3vh;
+    color: #171f46;
+    margin-top: 0;
+    text-align: center;
+  }
+  .ArrowBtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}
